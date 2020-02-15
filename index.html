@@ -17,6 +17,7 @@
     <link rel="https://cdn.piyushgarg.dev/stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
     <link rel="https://cdn.piyushgarg.dev/stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     
 </head>
 <body>
@@ -45,6 +46,14 @@
             </ol>
             <p class="btn btn-dark mt-4 text-white" id="tag">Made by Rajat dua</p>
         </div>
+        <script>
+            $(document).ready(()=>
+            {
+                $("button").click(()=>{
+                    $("button#clean").hide();
+                })
+            })
+        </script>
     <script src="script.js"></script>
 </body>
 </html>
